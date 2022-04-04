@@ -1,0 +1,13 @@
+{
+   "exclude": [
+      "node_modules",
+      "test",
+      "__build__",
+      "**/*spec.ts",
+      "next-env.d.ts",
+      "pages/**/*.tsx",
+      "components/**/*.tsx"
+   ],
+   "extends": "./tsconfig.json",
+   "include": ["src"]
+}
